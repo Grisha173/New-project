@@ -1,0 +1,14 @@
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.logo {
+    width: 350px;
+    height: 128px;
+    background-image: url(../../media/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}

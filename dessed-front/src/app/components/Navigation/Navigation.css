@@ -1,0 +1,29 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Inter', sans-serif;
+    font-weight: inherit;
+    font-size: 25px;
+    gap: 40px;
+}
+.navigation__link {
+    color: black;
+    text-decoration: none;
+}
+.navigation__link:hover {
+    text-shadow: 0 0 25px black;
+}
+.navigation__link--dropdown {
+    padding-right: 20px;
+    background-image: url(../../media/Arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 11px;
+}
+@media screen and (max-width: 1400px) {
+    .navigation {
+        display: none;
+    }
+}

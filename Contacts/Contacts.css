@@ -1,0 +1,123 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    gap: 60px;
+    padding: 50px 0;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+.contacts span {
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+.contacts__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 11%;
+}
+.contacts__content__left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 33%;
+}
+.contacts__content__left span:first-child {
+    font-size: 35px;
+}
+.contacts__content__right {
+    background: white;
+    height: 430px;
+    width: 33%;
+}
+.contacts__link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 23px;
+    text-shadow: 0 0 0.5px black;
+}
+.contacts__link:hover {
+    text-shadow: 0 0 25px black;
+}
+.contacts__content__left__number-mail {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contacts__content__left__number-mail__number span:first-child {
+    width: 23px;
+    height: 28px;
+}
+.contacts__application-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 11%;
+}
+.contacts__info {
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    text-shadow: 0 0 0.5px black;
+}
+.contacts__info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 20px;
+}
+.contacts__info__last-offer {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+@media screen and (max-width: 1256px) {
+    .contacts__content {
+        gap: 5%;
+    }
+    .contacts__content__left {
+        width: 38%;
+    }
+    .contacts__content__right {
+        width: 38%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .contacts__content {
+        gap: 2%;
+    }
+    .contacts__content__left {
+        width: 51%;
+    }
+    .contacts__content__left span:first-child {
+        font-size: 30px;
+    }
+    .contacts__link {
+        font-size: 22px;
+    }
+}

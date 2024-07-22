@@ -1,0 +1,163 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+}
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 11%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.footer__info {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    align-items: start;
+}
+.footer__logo {
+    width: 500px;
+    height: 182px;
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding-left: 50px;
+}
+.footer__number-mail {
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+}
+.footer__number-mail span {
+    font-size: 27px;
+    font-weight: 600;
+}
+.footer__application {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    width: 33%;
+    outline: solid black 2px;
+    border-radius: 4px;
+    padding: 40px 0;
+    box-shadow: 0px 0px 30px 0px black;
+    background: linear-gradient(315deg, rgba(58, 105, 180, 1) 44%, rgba(170, 161, 116, 1) 48%, rgba(252, 201, 69, 1) 51%);
+}
+.footer__application span {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.footer__application button {
+    width: 62%;
+    padding: 12px;
+    gap: 4px;
+    border-radius: 4px;
+    border: 2px solid #111827;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    transition: transform 0.5s ease;
+}
+.footer__application button:hover {
+    box-shadow: 0px 0px 25px black;
+    transform: scale(1.1);
+}
+.footer__inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.footer__input {
+    width: 55%;
+    padding: 12px;
+    gap: 4px;
+    border-radius: 4px;
+    border: 2px solid #111827;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    transition: transform 0.5s ease;
+}
+.footer__input:hover {
+    box-shadow: 0px 0px 15px black;
+}
+.footer__input:focus {
+    transform: scale(1.1);
+}
+@media screen and (max-width: 1400px) {
+    .footer__info {
+        gap: 0;
+        width: 36%;
+    }
+    .footer__contacts {
+        padding-left: 35px;
+    }
+}
+@media screen and (max-width: 1256px) {
+    .footer__logo {
+        width: 350px;
+        height: 128px;
+    }
+    .footer__info {
+        width: 38%;
+    }
+    .footer__contacts {
+        padding-left: 25px;
+    }
+    .footer__number-mail {
+        font-size: 23px;
+    }
+    .footer__number-mail span {
+        font-size: 23px;
+    }
+    .footer__application {
+        width: 38%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .footer__content {
+        gap: 0;
+    }
+    .footer__info {
+        gap: 0;
+        width: 54%;
+    }
+    .footer__logo {
+        width: 300px;
+        height: 110px;
+    }
+    .footer__contacts {
+        padding-left: 25px;
+    }
+    .footer__number-mail {
+        font-size: 20px;
+    }
+    .footer__number-mail span {
+        font-size: 20px;
+    }
+    .footer__number-mail svg {
+        width: 19px;
+        height: 22px;
+    }
+    .footer__application {
+        width: 44%;
+    }
+    .footer__application span {
+        font-size: 22px;
+    }
+}
